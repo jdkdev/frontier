@@ -4,6 +4,9 @@
   "adonis-version": "4.0.0",
   "description": "It's time for an adventure",
   "main": "index.js",
+  "bin": {
+    "frontier": "./bin/frontier"
+  },
   "scripts": {
     "start": "node server.js",
     "test": "node ace test",
