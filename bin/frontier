@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-# copied from cloudflare as example for now
+/*
+ copied from cloudflare as example for now
 let _ = require('lodash');
 let allowedOptions = require('./../lib/options');
 let CloudflareCli = require('./../index');
@@ -16,3 +17,4 @@ try {
 let params = _.extend(config, argv);
 let cli = new CloudflareCli(params);
 cli.runCommand(argv._[0], params);
+*/
